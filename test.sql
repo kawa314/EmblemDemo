@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `sale` (
   `ticket_id` int(16) NOT NULL,
   `date` date NOT NULL,
   `quantity` int(16) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `ticket` (
   `name` varchar(64) NOT NULL,
   `detail` text NOT NULL,
   `price` int(32) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `birth` date NOT NULL,
   `user_email` text NOT NULL,
   `user_pass` varchar(128) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
